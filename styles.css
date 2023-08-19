@@ -1,1 +1,57 @@
-/*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sou{
+	 height: 550px;
+    width: 350px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+	display:flex;
+	flex-direction:column
+}
+.one{
+	flex:2;
+}
+.two{
+	flex:3;
+}
+.three{
+	flex:1;
+	display:flex;
+}
+.sou>.one>center>img{
+	height:70%;
+	width:70%;
+	
+}
+h1{
+	font-size:40px;
+	text-align:center;
+}
+P{
+	margin-top:10px;
+	text-align:center;
+}
+.one,.two,.three{
+	padding:40px;
+}
+.three{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#four{
+	background-color:mediumvioletred;
+	border-radius:10px;
+	color:white;
+	border:none;
+	padding:10px;
+	
+	
+}
